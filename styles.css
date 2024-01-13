@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(233, 230, 230);
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #0e5319dc;
+    color: white;
+    text-align: center;
+    padding: 2em;
+    position: relative;
+}
+nav{
+    padding-top: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#searchInput {
+    position: relative;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+#searchButton {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #0e5319dc;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+}
+
+.main {
+    padding-top: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 300px;
+    border: 5px solid #002b0d;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.card:hover{
+    background-color: #45a049;
+    border-color: #0e5319dc;
+}
+
+.card img {
+    width: 100%;
+    height: 12em;
+}
+
+.card-content {
+    padding: 15px;
+}
+.card-content h2{
+    text-align: center;
+}
+.card-content p{
+    text-align: justify;
+    padding-top: .5em;
+    
+}
+
+
+#myBtn{
+    background: #002b0d;
+    border-color: #002b0d;
+    border-width: 4px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+#myBtn:hover{
+    background-color: #002b0d;
+    border-color: #002b0d;
+    color: #cccccc;
+}
+#more {
+    display:none;
+
+}
+#myBtn2{
+    background: #002b0d;
+    border-color: #002b0d;
+    border-width: 4px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+#myBtn2:hover{
+    background-color: #002b0d;
+    border-color: #002b0d;
+    color: #cccccc;
+}
+
+#more2 {
+    display:none;
+
+}
+#myBtn4{
+    background: #002b0d;
+    border-color: #002b0d;
+    border-width: 4px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+#myBtn4:hover{
+    background-color: #002b0d;
+    border-color: #002b0d;
+    color: #cccccc;
+}
+#more4 {
+    display:none;
+
+}
+#myBtn3{
+    background: #002b0d;
+    border-color: #002b0d;
+    border-width: 4px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+#myBtn3:hover{
+    background-color: #002b0d;
+    border-color: #002b0d;
+    color: #cccccc;
+}
+#more3 {
+    display:none;
+
+}
+
+
+.main-head {
+    padding-top: 3em;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(248, 248, 245);
+}
+
+.card {
+    width: 300px;
+    border: 5px solid #002b0d;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 12em;
+}
+
+.card-content {
+    padding: 15px;
+}
+.card-content h2{
+    text-align: center;
+}
+.card-content p{
+    text-align: justify;
+    
+}
+
+
+#myBtn5{
+    background: #002b0d;
+    
+    color: white;
+}
+#myBtn5:hover{
+    background-color: #002b0d;
+    border-color: #002b0d;
+    color: #cccccc;
+}
+#more5 {
+    display:none;
+
+}
+
+#myBtn6{
+    background: #002b0d;
+    
+    color: white;
+
+}
+#myBtn6:hover{
+    background-color: #002b0d;
+    border-color: #002b0d;
+    color: #cccccc;
+}
+#more6 {
+    display:none;
+
+}
+#myBtn7{
+    background: #002b0d;
+    
+    color: white;
+
+}
+#myBtn7:hover{
+    background-color: #002b0d;
+    border-color: #002b0d;
+    color: #cccccc;
+}
+#more7 {
+    display:none;
+
+}
+#myBtn8{
+    background: #002b0d;
+    
+    color: white;
+
+}
+#myBtn8:hover{
+    background-color: #002b0d;
+    border-color: #002b0d;
+    color: #cccccc;
+}
+#more8 {
+    display:none;
+}
+
+footer {
+    background-color: #0e5319dc;
+    color: white;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
