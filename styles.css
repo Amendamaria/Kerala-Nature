@@ -63,7 +63,7 @@ nav a:hover{
     position: relative;
     padding: 10px;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid #45a049;
     border-radius: 4px 0 0 4px;
 }
 
@@ -80,6 +80,7 @@ nav a:hover{
 #searchBtn:hover {
     background-color: #45a049;
     border-color: #45a049;
+    color: white;
 }
 
 .main {
